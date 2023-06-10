@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farm Field Frenzy</title>
+  <link rel="stylesheet" href="../css/c1.css">
+</head>
+<body>
+  <h1 class="title">Farm Field Frenzy</h1>
+  <p class="problem">A farmer wants to enclose a rectangular field using 200 meters of fencing. What should be the dimensions of the field to maximize its area?</p>
+  
+  <div class="container">
+    <div class="input-container">
+      <label for="field-length">Field Length:</label>
+      <input type="range" id="field-length" min="0" max="100" value="0" class="slider">
+      <span id="field-length-value">0</span>
+    </div>
+    <div class="input-container">
+      <label for="field-width">Field Width:</label>
+      <input type="range" id="field-width" min="0" max="100" value="0" class="slider">
+      <span id="field-width-value">0</span>
+    </div>
+  </div>
+
+  <canvas id="field-canvas" width="400" height="200"></canvas>
+
+  <div class="result-container">
+    <p>Current Area: <span id="current-area">0</span></p>
+    <p>Max Area: <span id="max-area">2500</span></p>
+    <p>Remaining Fencing: <span id="remaining-fencing">200</span></p>
+    <button id="check-answer">Check Answer</button>
+    <p id="result"></p>
+  </div>
+
+  <a href="c2.html">
+    <button id="next-problem-button" class="hidden" >Next Problem</button>
+  </a>
+
+  <script src="../js/c1.js"></script>
+</body>
+</html>
