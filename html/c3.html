@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Virus Spread Game</title>
+    <link rel="stylesheet" type="text/css" href="../css/c3.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Virus Spread Game</h1>
+        <div id="problem-box">
+            <p id="problem-statement"> A virus is spreading through a community, and it doubles its infected population every day. On the first day, there is only one infected person. How long until the virus has already infected everyone in the community, assuming that the community has 1,000 people?
+            </p>
+            <p id="days-counter"></p>
+        </div>
+        <div id="circle-container"></div>
+        <button id="next-day-btn" onclick="nextDay()">Next Day</button>
+        <div id="answer-section">
+            <input id="answer-input" type="text" placeholder="Enter the number of days">
+            <button id="check-btn" onclick="checkAnswer()">Check</button>
+            <p id="result"></p>
+        </div>
+    </div>
+    <a href="c4.html">
+        <button id="next-problem-button" class="hidden" >Next Problem</button>
+      </a>
+
+    <script src="../js/c3.js"></script>
+</body>
+</html>

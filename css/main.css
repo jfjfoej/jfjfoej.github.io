@@ -16,10 +16,14 @@ body {
     height: 100vh;
   }
   
+  h1 {
+    margin-bottom: 20px;
+    margin-top: none;
+  }
   img {
     max-width: 50%;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: none;
   }
   
   p {

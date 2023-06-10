@@ -1,0 +1,131 @@
+body {
+    background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+#container {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#problem-box {
+    background-color: #eee;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#problem-statement {
+    font-weight: bold;
+    margin: 0;
+}
+
+#days-counter {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+    z-index: 1;
+}
+
+#circle-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+#next-day-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+#next-day-btn:hover {
+    background-color: #0056b3;
+}
+
+#answer-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#answer-input {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    width: 150px;
+    margin-right: 10px;
+}
+
+#check-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#check-btn:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+#next-problem-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background-color: #337ab7;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #next-problem-button:hover {
+    background-color: #23527c;
+  }
+  
+  
+    .hidden {
+      display: none;
+    }
+    
