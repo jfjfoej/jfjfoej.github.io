@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Leisure Path</title>
+  <link rel="stylesheet" type="text/css" href="../css/c5.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Leisure Path</h1>
+    <p>Starting at the same point, a jogger is running 3 km per hour, and a cyclist is biking at 5 km per hour. How fast is the distance between them changing after 2 hours?</p>
+    <input type="range" min="1" max="100" value="1" id="slider">
+    <br>
+    <div class="rectangle" id="green-rectangle"></div>
+    <div class="rectangle" id="blue-rectangle"></div>
+    <br>
+    <input type="text" id="answer" placeholder="Enter your answer">
+    <button onclick="checkAnswer()">Check</button>
+    <p id="result"></p>
+  </div>
+
+  <a id="congrats-link" href="sol.html" style="display: none;">Congratulations!</a>
+
+  <script src="../js/c5.js"></script>
+</body>
+</html>

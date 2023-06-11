@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+  margin: 0 auto;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+button {
+  margin-top: 10px;
+}
+
+#next-problem-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  background-color: #337ab7;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#next-problem-button:hover {
+  background-color: #23527c;
+}
+
+
+  .hidden {
+    display: none;
+  }
