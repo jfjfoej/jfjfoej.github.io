@@ -18,7 +18,7 @@ advanceButton.addEventListener("click", function() {
 
 checkButton.addEventListener("click", function() {
   var userAnswer = answerInput.value;
-  var correctAnswer = "12.5";
+  var correctAnswer = "9";
 
   if (userAnswer === correctAnswer) {
     feedbackText.style.color = "green";
