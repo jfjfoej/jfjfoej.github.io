@@ -1,4 +1,8 @@
 body {
+  background-image: url("../img/c5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;

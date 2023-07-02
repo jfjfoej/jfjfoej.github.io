@@ -1,4 +1,8 @@
 body {
+  background-image: url("../img/c4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
